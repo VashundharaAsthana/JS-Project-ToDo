@@ -16,7 +16,7 @@ justify-content: center;
 align-items: center;
 }
 .todoApp{
-    background-color: rgb(237, 234, 171);
+    background-color: rgb(255, 253, 223);
     height: 50%;
      width: 100%;
     max-width: 540px;
@@ -108,3 +108,4 @@ background-color: #edeef0;
 border: none;
 border-radius: 36%;
 }
+
