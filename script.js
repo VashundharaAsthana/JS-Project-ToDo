@@ -21,7 +21,7 @@ if(e.target.tagName==="LI"){
     e.target.classList.toggle("checked");
 }
 else if (e.target.tagName==="SPAN"){
-    e.target.aperntElement.remove();
+    e.target.parentElement.remove();
 }
 },false);
 
@@ -31,4 +31,5 @@ function saveData(){
  function showTask(){
     listContainer.innerHTML=localStorage.getItem("data");
  }
+
  showTask();
