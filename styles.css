@@ -51,6 +51,7 @@ align-items: center;
    .row{
     display: flex;
     flex-direction: column;
+       height: 30%;
    }
    .button{
      margin-bottom:10px ;
@@ -122,5 +123,6 @@ background-color: #edeef0;
 border: none;
 border-radius: 36%;
 }
+
 
 
