@@ -19,7 +19,7 @@ align-items: center;
     background-color: rgb(255, 253, 223);
     height: 50%;
      width: 100%;
-    max-width: 540px;
+    max-width: 434px;
     
     border-radius: 10px;
     border: 1px solid rgb(47, 1, 91);
@@ -46,6 +46,20 @@ align-items: center;
     background-color: #dddeeb;
     padding-left: 20px;
     margin-bottom: 25px;
+}
+@media (max-width:482px) {
+   .row{
+    display: flex;
+    flex-direction: column;
+   }
+   .button{
+     margin-bottom:10px ;
+     padding: 12px 30px;
+   }
+   #input-box{
+    text-align: center;
+    font-weight: bold;
+   }
 }
 input{
     flex:1;
@@ -108,4 +122,5 @@ background-color: #edeef0;
 border: none;
 border-radius: 36%;
 }
+
 
