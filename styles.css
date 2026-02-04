@@ -94,7 +94,7 @@ position: absolute;
 height: 20px;
 width: 20px;
 border-radius: 50%;
-background-image: url(/Project_1/images/unchecked.png);
+background-image: url(images/unchecked.png);
 background-size: cover;
 background-position:  center;
 top: 12px;
@@ -105,7 +105,7 @@ left: 12px;
     text-decoration: line-through;
 }
 .checked::before{
-    background-image: url(/Project_1/images/checked.png);
+    background-image: url(images/checked.png);
 }
 span{
     position: absolute;
@@ -123,6 +123,7 @@ background-color: #edeef0;
 border: none;
 border-radius: 36%;
 }
+
 
 
 
